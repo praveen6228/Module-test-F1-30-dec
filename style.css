@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/* css for navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 8.7rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #ffffff;
+}
+/* css for bussiness name  */
+.bussiness-name {
+  width: 19.3rem;
+  height: 2.9rem;
+  padding-left: 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+/* padding for a tag  */
+.menu a {
+  padding-right: 2rem;
+}
+a {
+  text-decoration: none;
+}
+/* css for home  */
+.anchor1 {
+  width: 6.7rem;
+  height: 2.9rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+/* css for about us  */
+.anchor2 {
+  width: 11.1rem;
+  height: 2.9rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+/* css for our services */
+.anchor3 {
+  width: 14.4rem;
+  height: 2.9rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+/* css for contactus */
+.anchor4 {
+  width: 12.7rem;
+  height: 2.9rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+/* css for main container  */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 103rem;
+  background: #000000;
+  border-bottom: 2px solid #ffffff;
+}
+/* css for landing page div */
+.landing-page-text {
+  height: 74.5rem;
+  width: 105rem;
+  padding-left: 9.6rem;
+  padding-top: 22.9rem;
+  border-radius: nullpx;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 14.3rem;
+  font-size: 18rem;
+  line-height: 24.2rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #fff;
+  background: url(./images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 200rem 0;
+  }
+}
+/* css for laptop image  */
+.image {
+  margin-top: 60rem;
+  width: 73.4rem;
+  height: 39.5rem;
+  margin-left: -20rem;
+  background: url(./images/laptop.png);
+  background-repeat: no-repeat;
+  margin-bottom: 12rem;
+}
+/* css for container2 which conatins a image and text  */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* CSS FOR BACKGROUND IMAGE stirs  */
+.image2 {
+  width: 57.2rem;
+  height: 72.6rem;
+  background: url(./images/stairs2.png.png);
+  margin-left: 8.9rem;
+  margin-top: 23.6rem;
+  background-size: contain;
+}
+/* CSS FOR TEXT 2  */
+.text2 {
+  width: 91.2rem;
+  height: 54.6rem;
+  /* margin-top: 23.6rem; */
+  margin-right: 6.9rem;
+  margin-left: 4.9rem;
+}
+/* css for heading in text2  */
+.text2 h1 {
+  width: 91.2rem;
+  height: 22.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 12.1rem;
+  color: #000000;
+  margin-top: 0;
+}
+/* css for p tag in text2  */
+.text2 p {
+  width: 91.2rem;
+  height: 49.4rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  color: #000000;
+  margin-top: -3rem;
+}
+/* css for div our services */
+.our-services {
+  width: 91.2rem;
+  height: 16rem;
+  margin-left: 8.2rem;
+  margin-top: 17.2rem;
+}
+.our-services h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 12.1rem;
+  color: #000000;
+}
+/* css for service boxes  */
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  flex: gap 1rem;
+}
+.service-box {
+  width: 59.9rem;
+  height: 42.3rem;
+  box-sizing: border-box;
+  border: 0.2rem solid #000000;
+  margin-left: 8.2rem;
+}
+/* css for the heading 3 of service  */
+.service-box h3 {
+  width: 25.3rem;
+  height: 7.8rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.1rem;
+  color: #000000;
+  margin-top: 4.5rem;
+  margin-left: 4.4rem;
+  box-sizing: border-box;
+}
+/* css for the text of service-box  */
+.service-box p {
+  margin-top: 5.8rem;
+  width: 51rem;
+  height: 25.4rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #000000;
+  box-sizing: border-box;
+  margin-left: 4.4rem;
+  margin-bottom: 3.1rem;
+  margin-right: 4.5rem;
+}
+
+/* css for hover effect on service boxes */
+.service-container :hover {
+  background-color: black;
+  color: white;
+  transition-delay: 0.3s;
+}
+/* css for hover effect on service boxes */
+h3 :hover {
+  color: white;
+  transition-delay: 0.3s;
+}
+/* css for the contact div which is .contact-container  */
+.contact-container {
+  height: 103rem;
+  width: 172.8rem;
+  border-radius: 0px;
+  background: #000000;
+  margin-top: 32.6rem;
+}
+.contact-us {
+  height: 14.4rem;
+  width: 69.2rem;
+  margin-left: 51.8rem;
+  padding-top: 10rem;
+}
+.contact-us h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 12.1rem;
+  color: #ffffff;
+}
+/* css for form  */
+#fname {
+  box-sizing: border-box;
+  width: 137.2rem;
+  height: 7.2rem;
+  margin-left: 14.6rem;
+  border: 1px solid #ffffff;
+  margin-top: 5.7rem;
+  margin-left: 14.6rem;
+  margin-right: 21rem;
+  background: #000000;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+  padding-left: 1.3rem;
+}
+#lname {
+  box-sizing: border-box;
+  width: 137.2rem;
+  height: 7.2rem;
+  margin-left: 14.6rem;
+  border: 1px solid #ffffff;
+  margin-left: 14.6rem;
+  margin-right: 21rem;
+  background: #000000;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+  padding-left: 1.3rem;
+}
+#email {
+  box-sizing: border-box;
+  width: 137.2rem;
+  height: 7.2rem;
+  margin-left: 14.6rem;
+  border: 1px solid #ffffff;
+  margin-left: 14.6rem;
+  margin-right: 21rem;
+  background: #000000;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+  padding-left: 1.3rem;
+}
+#reason {
+  box-sizing: border-box;
+  width: 137.2rem;
+  height: 7.2rem;
+  margin-left: 14.6rem;
+  border: 1px solid #ffffff;
+  margin-left: 14.6rem;
+  margin-right: 21rem;
+  background: #000000;
+  color: white;
+}
+#reason {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+  padding-left: 1.3rem;
+}
+/* css for button  */
+#btn {
+  width: 26.7rem;
+  height: 5.8rem;
+  margin-left: 14.6rem;
+  margin-right: 132.1rem;
+  margin-bottom: 24.4rem;
+  margin-top: 4.7rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  color: #000000;
+}
+#btn text {
+  width: 9.4rem;
+  height: 3.3rem;
+  margin-left: 1.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+.menu-toggle:checked + .menu {
+  display: block;
+}
